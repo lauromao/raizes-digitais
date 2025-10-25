@@ -1,57 +1,36 @@
-🌱 Raízes Digitais
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Raízes Digitais é um protótipo de aplicativo acessível e inclusivo desenvolvido com foco em comunidades amazônicas, especialmente cooperativas ribeirinhas, agricultores familiares e pequenos produtores que trabalham com produtos da sociobiodiversidade como açaí, castanha, pescado, mel e óleos vegetais.
+## Getting Started
 
-O projeto busca unir tecnologia, acessibilidade e sustentabilidade, oferecendo uma solução de baixo custo e fácil uso — mesmo em regiões com conectividade limitada.
+First, run the development server:
 
-🎯 Objetivo
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Facilitar o registro da produção, controle financeiro, organização de pedidos e o acesso a conteúdos de capacitação para produtores da Amazônia, promovendo autonomia digital e inclusão socioeconômica.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-🧩 Funcionalidades principais
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-📦 Produção: registro simplificado de produtos (açaí, peixe, castanha) e quantidades.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-🛒 Pedidos: criação e acompanhamento de pedidos de venda.
+## Learn More
 
-💰 Financeiro: controle básico de receitas, despesas e saldo.
+To learn more about Next.js, take a look at the following resources:
 
-📚 Capacitação: acesso a vídeos, guias e áudios com temas de manejo sustentável e organização comunitária.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-🌓 Modo Claro/Escuro: alternância entre temas para conforto visual.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-🔠 Ajuste de Fonte: opção de alterar o tamanho do texto para melhor leitura.
+## Deploy on Vercel
 
-♿ Acessibilidade: design limpo, botões grandes, contraste adequado e suporte para leitura de tela.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-💡 Tecnologias Utilizadas
-
-Next.js (React Framework)
-
-Tailwind CSS
-
-Lucide React Icons
-
-Hooks e componentes reutilizáveis
-
-LocalStorage para persistência local de dados
-
-🌍 Contexto Amazônico
-
-Desenvolvido com base em princípios de usabilidade e acessibilidade universal, o Raízes Digitais foi pensado para funcionar:
-
-em dispositivos de baixo custo,
-
-com modo offline parcial,
-
-e interface adaptada à realidade de usuários com alfabetização digital variável.
-
-🚀 Próximos Passos
-
-Integração com banco de dados remoto (Firebase ou Supabase).
-
-Implementação de autenticação JWT para login seguro.
-
-Sincronização offline/online automática.
-
-Versão PWA (instalável como app em Android).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
